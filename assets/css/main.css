@@ -233,9 +233,10 @@ table tfoot {
 }
 #navigator .site-title .logo-image {
   display: inline-block;
-  min-width: 80px;
+  min-width: 40px;
   max-height: 40px;
   vertical-align: middle;
+  filter: invert(100%);
 }
 #navigator ul {
   -webkit-flex: 1;
