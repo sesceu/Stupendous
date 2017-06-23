@@ -21,6 +21,9 @@
     {{/unless}}
     <section class="post-content">
       {{content}}
+      {{#if image}}
+      <p><img src="{{image}}" alt="" /></p> 
+      {{/if}}
     </section>
 
     <section class="share">
