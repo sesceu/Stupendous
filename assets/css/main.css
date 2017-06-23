@@ -58,7 +58,6 @@ dd {
 h1,
 .post-meta {
   text-align: center;
-  text-shadow: -1px -1px 0 #555, 1px -1px 0 #555, -1px 1px 0 #555, 1px 1px 0 #555;
 }
 a,
 a:visited {
@@ -379,6 +378,7 @@ article.preview p.readmore a:hover {
   opacity: 0.9;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
   filter: alpha(opacity=90);
+  filter: blur(6px);
   z-index: 0;
 }
 .post-header {
@@ -397,7 +397,6 @@ article.preview p.readmore a:hover {
   color: #fff;
   font-family: 'Amatic SC', 'Merriweather', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Nimbus L', sans-serif, cursive;
   font-size: 40px;
-  text-shadow: -1px -1px 0 #888, 1px -1px 0 #888, -1px 1px 0 #888, 1px 1px 0 #888;
 }
 .post-header .post-meta {
   color: #eee;
